@@ -1,6 +1,6 @@
 //assigning no.
 final static int ROCK = 1, SCISSOR = 2, PAPER = 3;
-    public static void main(String[] args)
+    public static void Main(String[] args)
     {
         Scanner scan = new Scanner(System.in);
         System.out.println("Player 1: Choose (1) - Rock, (2) - Scissors, or (3) - Paper: ");
@@ -10,12 +10,12 @@ final static int ROCK = 1, SCISSOR = 2, PAPER = 3;
      
         if (player1 == player2)
         {
-            System.out.print("It is a tie");
+            System.out.println("It is a tie");
         } else {
             switch (player1){
             case ROCK:
                 if (player2 == SCISSOR)
-                    System.out.print("Player 1 wins!");
+                    System.out.println("Player 1 wins!");
                 else
                     System.out.print("Player 2 wins!");
                 break;
