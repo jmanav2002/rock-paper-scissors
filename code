@@ -1,4 +1,4 @@
-//assgning no.s
+//assgning no.
 final static int ROCK = 1, SCISSOR = 2, PAPER = 3;
     public static void main(String[] args)
     {
