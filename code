@@ -1,4 +1,4 @@
-//assigning no.
+//assigning no. for the game
 final static int ROCK = 1, SCISSOR = 2, PAPER = 3;
     public static void Main(String[] args)
     {
