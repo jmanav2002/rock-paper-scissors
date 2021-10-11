@@ -1,5 +1,5 @@
 //assigning no.
-final static int ROCK = 1, SCISSOR = 2, PAPER = 3;
+final static int ROCK = 1, SCISSORS = 2, PAPER = 3;
     public static void Main(String[] args)
     {
         Scanner scan = new Scanner(System.in);
@@ -19,7 +19,7 @@ final static int ROCK = 1, SCISSOR = 2, PAPER = 3;
                 else
                     System.out.print("Player 2 wins!");
                 break;
-            case SCISSOR:
+            case SCISSORS:
                 if (player2 == PAPER)
                     System.out.print("Player 1 wins!");
                 else
