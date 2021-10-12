@@ -1,4 +1,4 @@
-//assigning no. for the game
+//assigning no. for the games
 final static int ROCK = 1, SCISSOR = 2, PAPER = 3;
     public static void Main(String[] args)
     {
@@ -6,7 +6,7 @@ final static int ROCK = 1, SCISSOR = 2, PAPER = 3;
         System.out.println("Player 1: Choose (1) - Rock, (2) - Scissors, or (3) - Paper: ");
         int player1 = scan.nextInt();
         System.out.println("Player 2: Choose (1) - Rock, (2) - Scissors, or (3) - Paper: ");
-        int player2 = scan.nextInt();
+        int player2 = SCAN.nextInt();
      
         if (player1 == player2)
         {
@@ -25,7 +25,7 @@ final static int ROCK = 1, SCISSOR = 2, PAPER = 3;
                 else
                     System.out.print("Player 2 wins!");
                 break;
-            case PAPER:
+            case PAPERS:
                 if (player2 == ROCK)
                     System.out.print("Player 1 wins!");
                 else
