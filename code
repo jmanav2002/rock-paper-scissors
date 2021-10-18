@@ -1,5 +1,6 @@
 //assigning no. for the game objects
 final static int ROCK = 1, SCISSOR = 2, PAPER = 3;
+//equating them to  no.
     public static void Main(String[] args)
     {
         Scanner scan = new Scanner(System.in);
