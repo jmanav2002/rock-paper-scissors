@@ -1,4 +1,4 @@
-//assigning nos. for the game objects
+//assigning nos. for the games objects
 final static int ROCK = 1, SCISSOR = 2, PAPER = 3;
 //equating them to the  no.
     public static void Main(String[] args)
