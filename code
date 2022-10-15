@@ -18,7 +18,7 @@ final static int ROCK = 1, SCISSOR = 2, PAPER = 3;
             switch (player1){
             case ROCK:
                 if (player2 == SCISSOR)
-                    System.out.println("Player 1 wins!");
+                    System.out.println("Player 1 wins.");
                 else
                     System.out.print("Player 2 wins!");
                 break;
