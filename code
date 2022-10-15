@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.Scanner;
 import java.util.Arrays;
 final static int ROCK = 1, SCISSOR = 2, PAPER = 3;
 //equating them to the  no.
