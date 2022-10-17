@@ -11,6 +11,9 @@ final static int ROCK = 1, SCISSOR = 2, PAPER = 3;
         System.out.println("Player 1: Choose (1) - Rock, (2) - Scissors, or (3) - Paper: ");
         int player1 = scan.nextInt();
         System.out.println("Player 2: Choose (1) - Rock, (2) - Scissors, or (3) - Paper: ");
+ patch-2
+       
+main
         int player2 = SCAN.nextInt();
      
      
