@@ -32,6 +32,7 @@ final static int ROCK = 1, SCISSOR = 2, PAPER = 3;
                 else
                     System.out.print("Player 2 win!");
                 break;
+                break;
             case PAPERS:
                 if (player2 == ROCK)
                     System.out.print("Player 1 win!");
